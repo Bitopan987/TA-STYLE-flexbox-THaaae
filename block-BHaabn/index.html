@@ -1,8 +1,64 @@
-<!-- 
-- Create a gallery using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
--->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox|Assignment level-1</title>
+    <link rel="stylesheet" href="./assets/stylesheets/style.css" />
+    <!-- Font-Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b8c71f3ce4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="top">
+    <header class="header">
+      <div class="container flex">
+        <a href="#" class="logo">
+          <img src="./assets/logo.svg" alt="AltCampus" />
+        </a>
+        <nav class="header-link">
+          <a href="#">Home</a>
+          <a href="#">gallery</a>
+          <a href="#">about</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="gallery-section">
+        <h1 class="gallery-title">GALLERY</h1>
+        <div class="container flex">
+          <div class="col-1-1">
+            <img src="./assets/01.png" alt="art" />
+          </div>
+          <div class="col-1-1">
+            <img src="./assets/02.png" alt="a girl" />
+          </div>
+          <div class="col-1-1">
+            <img src="./assets/03.png" alt="bed" />
+          </div>
+          <div class="col-1-1">
+            <img src="./assets/04.png" alt="a girl with hat" />
+          </div>
+          <div class="col-1-1">
+            <img src="./assets/05.png" alt="a man with photo frame" />
+          </div>
+          <div class="col-1-1">
+            <img src="./assets/06.png" alt="a temple" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container flex">
+        <small>&copy;AltCampus2021</small>
+        <nav class="footer-link">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </nav>
+      </div>
+    </footer>
+    <a class="top-btn" href="#top"><i class="fas fa-arrow-up"></i></a>
+  </body>
+</html>
